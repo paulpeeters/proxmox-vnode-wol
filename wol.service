@@ -1,0 +1,11 @@
+[Unit]
+Description= WOL (for vnodes)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash /root/wol/wol.sh
+#Restart=always
+
+[Install]
+WantedBy=multi-user.target

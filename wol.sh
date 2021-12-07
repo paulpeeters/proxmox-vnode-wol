@@ -1,3 +1,4 @@
+#!/bin/bash
 exec 1> >(logger -t $(basename $0)) 2>&1
 base_dir=/root/wol
 socat -u udp-recv:9 - | 

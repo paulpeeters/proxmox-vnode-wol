@@ -1,4 +1,0 @@
-# List of MAC addresses and the corresponding vnode id in proxmox
-# Enter each MAC address (using ':' to separate the bytes), node id and (optionally) name, separated with comma
-AA:BB:CC:DD:EE:FF,100,host-01
-12:34:56:78:90:AA,101,host-02
